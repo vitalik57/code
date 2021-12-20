@@ -3,7 +3,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Modal from "../modal/Modal";
 import MainList from "./MainList";
-import { MainStyled } from "./MainSteled";
+import { MainStyled } from "./MainStyled";
 const Main = () => {
   const [state, setstate] = useState({ res: [] });
   const [filter, setFilter] = useState("");

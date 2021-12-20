@@ -1,10 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { ModalStyled } from "./ModalStyled";
 const Modal = ({ close, suumary }) => {
-  const [showModal, setModal] = useState(false);
-  const addParameter = () => {
-    setModal(!showModal);
-  };
   return (
     <>
       <ModalStyled>
